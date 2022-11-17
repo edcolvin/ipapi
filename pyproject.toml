@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ipapi"
+version = "0.1.0"
+description = ""
+authors = ["Ed Colvin <ehcolvin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.6.0"
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
